@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#120A05] text-[#FAF5EE] antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #190E07;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #4A2C1B;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6F4E37;
+  }
+}
+
+@layer components {
+  .glass-card {
+    background: rgba(31, 19, 11, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(212, 175, 55, 0.12);
+  }
+
+  .glass-card-hover {
+    background: rgba(31, 19, 11, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(212, 175, 55, 0.12);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .glass-card-hover:hover {
+    background: rgba(44, 24, 16, 0.85);
+    border-color: rgba(212, 175, 55, 0.35);
+    transform: translateY(-4px);
+    box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.5), 0 0 20px 0 rgba(212, 175, 55, 0.1);
+  }
+
+  .glass-panel {
+    background: rgba(27, 16, 8, 0.92);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(212, 175, 55, 0.15);
+  }
+
+  .btn-gold {
+    @apply bg-gradient-to-r from-gold-500 via-gold-400 to-gold-500 text-coffee-950 font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-gold-500/20 hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-outline-gold {
+    @apply border border-gold-500/60 text-gold-400 font-medium px-6 py-3 rounded-full transition-all duration-300 hover:bg-gold-500/10 hover:border-gold-400 hover:text-gold-300 active:scale-[0.98] disabled:opacity-50;
+  }
+}

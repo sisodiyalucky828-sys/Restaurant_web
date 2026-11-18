@@ -53,7 +53,7 @@ const AdminLayout = () => {
               </div>
               <div>
                 <h1 className="font-serif text-lg font-bold text-cream-50 leading-tight">
-                  Velvet <span className="text-gold-400">Admin</span>
+                  Lucky <span className="text-gold-400">Admin</span>
                 </h1>
                 <p className="text-[10px] text-cream-400 tracking-wider uppercase">Management Suite</p>
               </div>

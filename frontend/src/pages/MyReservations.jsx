@@ -31,7 +31,7 @@ const MyReservations = () => {
         <div>
           <h1 className="font-serif text-3xl font-bold text-cream-50">My Reservations</h1>
           <p className="text-xs sm:text-sm text-cream-300 mt-1">
-            View status and manage your table bookings at Velvet Brew Cafe.
+            View status and manage your table bookings at Lucky Cafe Cafe.
           </p>
         </div>
         <Link

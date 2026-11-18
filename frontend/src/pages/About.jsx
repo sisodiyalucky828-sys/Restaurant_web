@@ -61,7 +61,7 @@ const About = () => {
           </span>
         </h1>
         <p className="text-sm sm:text-base text-cream-200/90 leading-relaxed pt-2">
-          Velvet Brew was established in the historic quarter as a sanctuary for those who appreciate the poetry of single-origin coffee and the warmth of genuine hospitality.
+          Lucky Cafe was established in the historic quarter as a sanctuary for those who appreciate the poetry of single-origin coffee and the warmth of genuine hospitality.
         </p>
       </div>
 

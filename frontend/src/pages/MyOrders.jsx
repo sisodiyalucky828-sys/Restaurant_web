@@ -31,7 +31,7 @@ const MyOrders = () => {
         <div>
           <h1 className="font-serif text-3xl font-bold text-cream-50">My Orders</h1>
           <p className="text-xs sm:text-sm text-cream-300 mt-1">
-            Track real-time status and view order receipts from Velvet Brew Cafe.
+            Track real-time status and view order receipts from Lucky Cafe Cafe.
           </p>
         </div>
         <Link to="/menu" className="btn-gold text-xs uppercase px-5 py-2.5 inline-flex items-center space-x-2">

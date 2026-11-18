@@ -40,7 +40,7 @@ const AdminUsers = () => {
   };
 
   const handleDelete = async (userId, userEmail) => {
-    if (userEmail === 'admin@velvetbrew.com') {
+    if (userEmail === 'admin@luckycafe.com' || userEmail === 'sisodiyalucky828@gmail.com') {
       toast.error('Cannot delete the primary administrator account.');
       return;
     }
@@ -128,7 +128,7 @@ const AdminUsers = () => {
                     </td>
 
                     <td className="py-3.5 px-4">
-                      {u.email === 'admin@velvetbrew.com' ? (
+                      {u.email === 'admin@luckycafe.com' || u.email === 'sisodiyalucky828@gmail.com' ? (
                         <Badge status="admin" />
                       ) : (
                         <select
@@ -155,7 +155,7 @@ const AdminUsers = () => {
                     </td>
 
                     <td className="py-3.5 px-4 text-right">
-                      {u.email !== 'admin@velvetbrew.com' && u._id !== currentUser?._id && (
+                      {u.email !== 'admin@luckycafe.com' && u.email !== 'sisodiyalucky828@gmail.com' && u._id !== currentUser?._id && (
                         <button
                           onClick={() => handleDelete(u._id, u.email)}
                           className="p-1.5 rounded-lg bg-coffee-900 text-cream-400 hover:text-rose-400 hover:bg-coffee-800 transition-colors"

@@ -1,7 +1,7 @@
 {
   "name": "velvet-brew-backend",
   "version": "1.0.0",
-  "description": "Production-ready backend API for Velvet Brew Cafe",
+  "description": "Production-ready backend API for Lucky Cafe Cafe",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -26,6 +26,6 @@
     "restaurant",
     "api"
   ],
-  "author": "Velvet Brew Cafe",
+  "author": "Lucky Cafe Cafe",
   "license": "ISC"
 }

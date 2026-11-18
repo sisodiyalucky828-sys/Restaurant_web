@@ -288,10 +288,10 @@ const seedDatabase = async (exitOnComplete = true) => {
 
     // 1. Create Admin & Customers
     const adminUser = await User.create({
-      name: 'Chief Barista Admin',
-      email: 'admin@velvetbrew.com',
+      name: 'Lucky Admin',
+      email: 'sisodiyalucky828@gmail.com',
       password: 'admin123',
-      phone: '+1 (555) 019-2834',
+      phone: '8839715938',
       role: 'admin',
     });
 
@@ -511,7 +511,7 @@ const seedDatabase = async (exitOnComplete = true) => {
     console.log(`[Seed] Created 4 sample table reservations.`);
     console.log('[Seed] Database seeding completed successfully! ✨');
     console.log('----------------------------------------------------');
-    console.log('Admin Account:   admin@velvetbrew.com / admin123');
+    console.log('Admin Account:   sisodiyalucky828@gmail.com / admin123');
     console.log('Customer 1:      sarah.jenkins@example.com / customer123');
     console.log('Customer 2:      alex.turner@example.com / customer123');
     console.log('----------------------------------------------------');

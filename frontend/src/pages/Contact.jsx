@@ -61,7 +61,7 @@ const Contact = () => {
                 <div>
                   <h4 className="text-sm font-semibold text-cream-100">Location</h4>
                   <p className="text-xs text-cream-300/90 leading-relaxed mt-0.5">
-                    452 Roast Boulevard, Heritage Quarter, Suite 104
+                    Indore
                   </p>
                   <p className="text-[11px] text-gold-400 mt-1">Complimentary Valet Parking Available</p>
                 </div>
@@ -74,7 +74,7 @@ const Contact = () => {
                 <div>
                   <h4 className="text-sm font-semibold text-cream-100">Direct Phone</h4>
                   <p className="text-xs text-cream-300/90 leading-relaxed mt-0.5">
-                    +1 (555) 234-BREW (2739)
+                    8839715938
                   </p>
                   <p className="text-[11px] text-cream-400 mt-0.5">Lines open daily from 7:00 AM</p>
                 </div>
@@ -87,9 +87,9 @@ const Contact = () => {
                 <div>
                   <h4 className="text-sm font-semibold text-cream-100">Email Inquiries</h4>
                   <p className="text-xs text-cream-300/90 leading-relaxed mt-0.5">
-                    concierge@velvetbrew.com
+                    sisodiyalucky828@gmail.com
                   </p>
-                  <p className="text-[11px] text-cream-400 mt-0.5">Events: events@velvetbrew.com</p>
+                  <p className="text-[11px] text-cream-400 mt-0.5">Direct: sisodiyalucky828@gmail.com</p>
                 </div>
               </div>
 
@@ -175,7 +175,7 @@ const Contact = () => {
                       type="tel"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="+1 (555) 000-0000"
+                      placeholder="8839715938"
                       className="w-full px-4 py-2.5 bg-coffee-900/90 border border-coffee-800 rounded-xl text-sm text-cream-100 placeholder-cream-400/40 focus:outline-none focus:border-gold-500"
                     />
                   </div>
@@ -235,11 +235,11 @@ const Contact = () => {
             <MapPin className="w-5 h-5 text-gold-400" />
             <h3 className="font-serif text-lg font-bold text-cream-50">Interactive Location Map</h3>
           </div>
-          <span className="text-xs text-cream-400">452 Roast Blvd, Heritage Quarter</span>
+          <span className="text-xs text-cream-400">Indore</span>
         </div>
         <div className="h-80 w-full bg-coffee-900 relative">
           <iframe
-            title="Velvet Brew Cafe Location"
+            title="Lucky Cafe Cafe Location"
             className="w-full h-full border-0 filter invert-[90%] hue-rotate-180 contrast-[88%]"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153166!3d-37.816279742021665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d206f6e2b34a!2sSpecialty%20Coffee%20Roasters!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
             allowFullScreen=""

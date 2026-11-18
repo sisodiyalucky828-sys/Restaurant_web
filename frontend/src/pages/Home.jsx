@@ -79,7 +79,7 @@ const Home = () => {
         <div className="absolute inset-0 z-0">
           <img
             src={images.hero}
-            alt="Velvet Brew Cafe Ambience"
+            alt="Lucky Cafe Cafe Ambience"
             className="w-full h-full object-cover object-center filter brightness-[0.45] scale-105 transform animate-pulse-subtle"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-coffee-950 via-coffee-950/70 to-transparent" />
@@ -224,7 +224,7 @@ const Home = () => {
               Where Roasting Meets Pure Artistry.
             </h2>
             <p className="text-cream-200/90 text-sm sm:text-base leading-relaxed">
-              Founded in 2021 by award-winning baristas, Velvet Brew was born out of an obsession with the subtle nuances of specialty coffee. Every batch of green coffee beans is sourced directly from sustainable high-altitude farms in Ethiopia, Colombia, and Sumatra.
+              Founded in 2021 by award-winning baristas, Lucky Cafe was born out of an obsession with the subtle nuances of specialty coffee. Every batch of green coffee beans is sourced directly from sustainable high-altitude farms in Ethiopia, Colombia, and Sumatra.
             </p>
             <p className="text-cream-300/80 text-sm leading-relaxed">
               Roasted in micro-batches on our custom cast-iron drum roaster, we coax out notes of caramel blossom, dark stone fruits, and cocoa velvet before crafting them with precision steam into every cup.

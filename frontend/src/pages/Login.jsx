@@ -42,7 +42,7 @@ const Login = () => {
 
   const fillCredentials = (type) => {
     if (type === 'admin') {
-      setEmail('admin@velvetbrew.com');
+      setEmail('sisodiyalucky828@gmail.com');
       setPassword('admin123');
       toast('Demo Admin credentials filled!', { icon: '👑' });
     } else {
@@ -61,7 +61,7 @@ const Login = () => {
             <Coffee className="w-6 h-6 text-coffee-950 stroke-[2.2]" />
           </div>
           <h1 className="font-serif text-2xl sm:text-3xl font-bold text-cream-50">
-            Welcome to Velvet Brew
+            Welcome to Lucky Cafe
           </h1>
           <p className="text-xs text-cream-300">Sign in to manage orders, reservations & privileges</p>
         </div>

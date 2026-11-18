@@ -51,7 +51,7 @@ const Navbar = () => {
           </div>
           <div>
             <span className="font-serif text-xl sm:text-2xl font-bold tracking-wider text-cream-50 block leading-tight">
-              VELVET <span className="text-gold-400">BREW</span>
+              LUCKY <span className="text-gold-400">CAFE</span>
             </span>
             <span className="text-[10px] tracking-[0.2em] text-cream-300 uppercase block">
               Artisanal Roastery

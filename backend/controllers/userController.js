@@ -86,7 +86,7 @@ const updateUserRole = async (req, res, next) => {
     }
 
     // Protect primary admin from demotion
-    if (user.email === 'admin@velvetbrew.com' && role !== 'admin') {
+    if ((user.email === 'admin@luckycafe.com' || user.email === 'sisodiyalucky828@gmail.com') && role !== 'admin') {
       return res.status(400).json({
         success: false,
         message: 'Primary admin account role cannot be changed',
@@ -125,7 +125,7 @@ const deleteUser = async (req, res, next) => {
       });
     }
 
-    if (user.email === 'admin@velvetbrew.com') {
+    if (user.email === 'admin@luckycafe.com' || user.email === 'sisodiyalucky828@gmail.com') {
       return res.status(400).json({
         success: false,
         message: 'Cannot delete primary admin account',

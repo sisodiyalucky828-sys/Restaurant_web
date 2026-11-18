@@ -1,5 +1,5 @@
 /**
- * SMS Notification Service for Velvet Brew Cafe
+ * SMS Notification Service for Lucky Cafe Cafe
  *
  * Sends SMS notifications to the cafe owner when new orders are placed.
  * Uses Twilio as the SMS provider. Designed to be provider-agnostic so

@@ -1,6 +1,6 @@
 # SMS Notifications Setup Guide
 
-This guide explains how to set up SMS notifications for the Velvet Brew Cafe. When a customer places an order, an SMS is automatically sent to the cafe owner's phone number.
+This guide explains how to set up SMS notifications for the Lucky Cafe Cafe. When a customer places an order, an SMS is automatically sent to the cafe owner's phone number.
 
 ## Table of Contents
 

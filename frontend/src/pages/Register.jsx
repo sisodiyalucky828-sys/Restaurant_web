@@ -44,7 +44,7 @@ const Register = () => {
         formData.password,
         formData.phone
       );
-      toast.success(`Welcome to Velvet Brew, ${user.name}!`);
+      toast.success(`Welcome to Lucky Cafe, ${user.name}!`);
       navigate('/');
     } catch (err) {
       toast.error(err.message || 'Registration failed.');
@@ -65,7 +65,7 @@ const Register = () => {
             Create an Account
           </h1>
           <p className="text-xs text-cream-300">
-            Join the Velvet Brew community for order tracking & exclusive tastings
+            Join the Lucky Cafe community for order tracking & exclusive tastings
           </p>
         </div>
 
@@ -115,7 +115,7 @@ const Register = () => {
                 type="tel"
                 value={formData.phone}
                 onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                placeholder="+1 (555) 000-0000"
+                placeholder="8839715938"
                 className="w-full pl-10 pr-4 py-2.5 bg-coffee-900/90 border border-coffee-800 rounded-xl text-sm text-cream-100 focus:outline-none focus:border-gold-500"
               />
             </div>

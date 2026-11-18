@@ -224,7 +224,7 @@ const Checkout = () => {
                   required
                   value={customerDetails.phone}
                   onChange={(e) => setCustomerDetails({ ...customerDetails, phone: e.target.value })}
-                  placeholder="+1 (555) 000-0000"
+                  placeholder="8839715938"
                   className="w-full px-4 py-2.5 bg-coffee-900/90 border border-coffee-800 rounded-xl text-sm text-cream-100 focus:outline-none focus:border-gold-500"
                 />
               </div>
@@ -380,7 +380,7 @@ const Checkout = () => {
           </button>
 
           <p className="text-[11px] text-center text-cream-400">
-            By placing your order, you agree to Velvet Brew terms and privacy policy.
+            By placing your order, you agree to Lucky Cafe terms and privacy policy.
           </p>
         </div>
       </form>

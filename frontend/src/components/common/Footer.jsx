@@ -12,7 +12,7 @@ const Footer = () => {
       toast.error('Please enter your email address');
       return;
     }
-    toast.success('Thank you for subscribing to Velvet Brew Insider! Check your inbox soon.');
+    toast.success('Thank you for subscribing to Lucky Cafe Insider! Check your inbox soon.');
     setEmail('');
   };
 
@@ -28,7 +28,7 @@ const Footer = () => {
                 <Coffee className="w-5 h-5 text-coffee-950 stroke-[2.2]" />
               </div>
               <span className="font-serif text-2xl font-bold text-cream-50">
-                VELVET <span className="text-gold-400">BREW</span>
+                LUCKY <span className="text-gold-400">CAFE</span>
               </span>
             </div>
             <p className="text-sm text-cream-300/80 leading-relaxed">
@@ -108,15 +108,15 @@ const Footer = () => {
             <div className="space-y-2.5 text-sm text-cream-300 mb-5">
               <p className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-gold-400 flex-shrink-0" />
-                <span>452 Roast Boulevard, Heritage Quarter</span>
+                <span>Indore</span>
               </p>
               <p className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-gold-400 flex-shrink-0" />
-                <span>+1 (555) 234-BREW (2739)</span>
+                <span>8839715938</span>
               </p>
               <p className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-gold-400 flex-shrink-0" />
-                <span>concierge@velvetbrew.com</span>
+                <span>sisodiyalucky828@gmail.com</span>
               </p>
             </div>
 
@@ -144,7 +144,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-cream-400">
-          <p>© {new Date().getFullYear()} Velvet Brew Cafe & Roastery. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Lucky Cafe Cafe & Roastery. All rights reserved.</p>
           <div className="flex items-center space-x-6 mt-4 sm:mt-0">
             <a href="#" className="hover:text-gold-400 transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-gold-400 transition-colors">Terms of Service</a>

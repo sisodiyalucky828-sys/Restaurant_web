@@ -30,7 +30,7 @@ if (process.env.NODE_ENV === 'development') {
 app.get('/api/health', (req, res) => {
   res.status(200).json({
     status: 'online',
-    brand: 'Velvet Brew Cafe API',
+    brand: 'Lucky Cafe Cafe API',
     timestamp: new Date().toISOString(),
   });
 });
@@ -72,7 +72,7 @@ const startServer = async () => {
 
     const server = app.listen(PORT, () => {
       console.log(`===================================================`);
-      console.log(`☕ Velvet Brew Cafe API Server is running on port ${PORT}`);
+      console.log(`☕ Lucky Cafe Cafe API Server is running on port ${PORT}`);
       console.log(`🚀 API Base URL: http://localhost:${PORT}/api`);
       console.log(`📡 Health Check: http://localhost:${PORT}/api/health`);
       console.log(`===================================================`);
